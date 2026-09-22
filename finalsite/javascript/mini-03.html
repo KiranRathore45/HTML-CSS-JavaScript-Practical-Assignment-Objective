@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Create a stopwatch.</title><link rel="stylesheet" href="../assets/style.css"></head><body><header class="top"><h1>HTML · CSS · JavaScript Practical Programs</h1><nav class="nav"><a href="../index.html">Home</a><a href="../html/index.html">HTML</a><a href="../css/index.html">CSS</a><a href="../javascript/index.html">JavaScript</a><a href="../README.html">README</a></nav></header><main class="container"><section class="hero"><span class="badge">Mini Projects 3</span><h2>Create a stopwatch.</h2><div class="demo"><button onclick="start()">Start</button><button onclick="stop()">Stop</button><div id="out" class="output">0 s</div></div></section></main><script>let sec=0,timer;function start(){if(!timer)timer=setInterval(()=>out.textContent=(++sec)+" s",1000)}function stop(){clearInterval(timer);timer=null}</script>
+<div class="program-navigation">
+    <a href="../javascript/index.html" class="back-programs">← Back to Programs</a>
+    <a href="../index.html" class="home-button">← Home</a>
+</div>
+
+</body></html>
